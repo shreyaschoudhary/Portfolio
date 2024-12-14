@@ -13,7 +13,7 @@ page = st.sidebar.radio("Go to", ["🏠 Home", "📊 Projects", "📞 Contact"])
 if page == "🏠 Home":
     st.title("Welcome to Shreyas's Portfolio 🎯")
     st.write("### Hi, I'm **Shreyas**, a Data Professional and Machine Learning Enthusiast.")
-    st.image("https://via.placeholder.com/800x300?text=Welcome+to+My+Portfolio", caption="Showcasing Data Insights")
+    st.image("https://cdn.prod.website-files.com/5d6697e04531522c6b9ca2a8/64c82074aece8984333df8ec_illustration-isometric-concept-data-analysis-of-investment-business-company-free-vector.jpeg", caption="Showcasing Data Insights")
 
     st.write(
         """
