@@ -90,7 +90,7 @@ elif page == "📞 Contact":
         "Feel free to reach out to me for collaboration or job opportunities:"
     )
     st.write("- 📧 **Email**: shreyas.uoft@gmail.com")
-    st.write("- 🔗 [**LinkedIn**](www.linkedin.com/in/shreyas-choudhary-4786bb106)")  # Replace '#' with your LinkedIn link
+    st.write("- 🔗 [**LinkedIn**](https://www.linkedin.com/in/shreyas-choudhary-4786bb106/)")  # Replace '#' with your LinkedIn link
     st.write("- 🐙 [**GitHub**](https://github.com/shreyaschoudhary)")  # Replace '#' with your GitHub link
 
     # Contact Form
