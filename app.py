@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # --- PAGE CONFIG ---
-st.set_page_config(page_title="Shreyas Portfolio", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Shreyas Choudhary", page_icon="📊", layout="wide")
 
 # --- SIDEBAR NAVIGATION ---
 st.sidebar.title("Navigation")
@@ -12,15 +12,15 @@ page = st.sidebar.radio("Go to", ["🏠 Home", "📊 Projects", "📞 Contact"])
 # --- HOME PAGE ---
 if page == "🏠 Home":
     st.title("Welcome to Shreyas's Portfolio 🎯")
-    st.write("### Hi, I'm **Shreyas**, a Data Analyst and Machine Learning Specialist.")
+    st.write("### Hi, I'm **Shreyas**, a Data Professional and Machine Learning Enthusiast.")
     st.image("https://via.placeholder.com/800x300?text=Welcome+to+My+Portfolio", caption="Showcasing Data Insights")
 
     st.write(
         """
         **I specialize in**:
-        - 📊 **Data Analysis & Visualization**: Power BI, Tableau, Python (Matplotlib, Plotly)  
-        - 🧠 **Machine Learning**: Building and deploying predictive models  
-        - 🛠️ **Technical Skills**: Python, SQL, Excel, Web App Development  
+        - 📊 **Data Analysis & Visualization**: Power BI, Tableau, Python  
+        - 🧠 **Machine Learning**: Building and deploying models  
+        - 🛠️ **Technical Skills**: Python, SQL, Excel 
         
         Explore my projects below and feel free to reach out for collaborations!
         """
@@ -89,9 +89,9 @@ elif page == "📞 Contact":
     st.write(
         "Feel free to reach out to me for collaboration or job opportunities:"
     )
-    st.write("- 📧 **Email**: shreyas.analytics@gmail.com")
-    st.write("- 🔗 [**LinkedIn**](#)")  # Replace '#' with your LinkedIn link
-    st.write("- 🐙 [**GitHub**](#)")  # Replace '#' with your GitHub link
+    st.write("- 📧 **Email**: shreyas.uoft@gmail.com")
+    st.write("- 🔗 [**LinkedIn**](www.linkedin.com/in/shreyas-choudhary-4786bb106)")  # Replace '#' with your LinkedIn link
+    st.write("- 🐙 [**GitHub**](https://github.com/shreyaschoudhary)")  # Replace '#' with your GitHub link
 
     # Contact Form
     st.subheader("Send a Message")
