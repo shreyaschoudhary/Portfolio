@@ -87,7 +87,7 @@ elif page == "📊 Projects":
 elif page == "📞 Contact":
     st.title("Contact Me 💼")
     st.write(
-        "Feel free to reach out to me for collaboration or job opportunities:"
+        "Feel free to reach out to me for collaboration opportunities:"
     )
     st.write("- 📧 **Email**: shreyas.uoft@gmail.com")
     st.write("- 🔗 [**LinkedIn**](https://www.linkedin.com/in/shreyas-choudhary-4786bb106/)")  # Replace '#' with your LinkedIn link
